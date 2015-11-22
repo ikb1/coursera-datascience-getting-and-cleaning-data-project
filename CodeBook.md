@@ -124,7 +124,7 @@ Subject data
 ------------
 * TrainSubject used to load subject_train.txt data
 * TestSubject used to load subject_test.txt data
-* SubjectData used to combine data from TrainSubject, TestSubject
+* SubjectData used to combine data from TrainSubject and TestSubject
 
 Other variables
 ---------------
