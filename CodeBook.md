@@ -109,25 +109,27 @@ The variables used in the run_analysis.R script were:
 
 Feature data
 ------------
-XTrain used to load X_train.txt data
-XTest used to load X_test.txt data
-XData used to combine data from XTrain and XTest
+* XTrain used to load X_train.txt data
+* XTest used to load X_test.txt data
+* XData used to combine data from XTrain and XTest
 
 Activity data
 -------------
-YTrain used to load y_train.txt data
-YTest used to load y_test.txt data
-YData used to combine data from YTrain and YTest
-Activity used to load activity_labels.txt data
+* YTrain used to load y_train.txt data
+* YTest used to load y_test.txt data
+* YData used to combine data from YTrain and YTest
+* Activity used to load activity_labels.txt data
 
 Subject data
 ------------
-TrainSubject used to load subject_train.txt data
-TestSubject used to load subject_test.txt data
-SubjectData used to combine data from TrainSubject, TestSubject
+* TrainSubject used to load subject_train.txt data
+* TestSubject used to load subject_test.txt data
+* SubjectData used to combine data from TrainSubject, TestSubject
 
-F used to load features.txt name data
-Ci  column indicies for which feature columns contain mean() and std() data
-XSubset reduced subset of XData containing feature columns containing mean() and std() data
-Data single dataset containing XSubset + YData + SubjectData
-Tidy summarised dataset containing for each activity and subject combination the average of each feature variable - This is the final dataset output from the script
+Other variables
+---------------
+* F used to load features.txt name data
+* Ci  column indicies for which feature columns contain mean() and std() data
+* XSubset reduced subset of XData containing feature columns containing mean() and std() data
+* Data single dataset containing XSubset + YData + SubjectData
+* Tidy summarised dataset containing for each activity and subject combination the average of each feature variable - This is the final dataset output from the script
