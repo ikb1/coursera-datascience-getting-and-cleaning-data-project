@@ -2,10 +2,10 @@
 
 ## Introduction
 This Repository contains the following files:
-1) Readme
-2) CodeBook
-3) run_analysis.R
-4) TidyData.txt
+* README.md
+* CodeBook.md
+* run_analysis.R
+* TidyData.txt
 
 ## Source Data
 Some words about the data
