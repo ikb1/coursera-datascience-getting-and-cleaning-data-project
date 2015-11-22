@@ -15,11 +15,11 @@ Obtained from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+
 ## Script and Tidy dataset
 We are supplied seperate test and training data sets for a large number of features, activity data and subject data
 We are asked to produce an R script called run_analysis.R that does the following:
- * 1) Merge the Training and the Test sets to create one data set
- * 2) Extract only the measurements on the Mean and Standard Deviation for each measurement
- * 3) Use descriptive activity names to name the activities in the data set
- * 4) Appropriately label the data set with descriptive variable names
- * 5) From dataset in 4) create an independent tidy dataset with the average of each variable for each activity and each subject
+ * Merge the Training and the Test sets to create one data set
+ * Extract only the measurements on the Mean and Standard Deviation for each measurement
+ * Use descriptive activity names to name the activities in the data set
+ * Appropriately label the data set with descriptive variable names
+ * From dataset produced in the step above create an independent tidy dataset with the average of each variable for each activity and each subject
 
 ## Code Book
 This text file explains the transformations carried out and the tidy data output file and variables
